@@ -117,7 +117,7 @@ const Banner = () => {
                 <a href="https://github.com/Farhan-SupTo" target="_blank" rel="noreferrer">
                   <FaGithub />
                 </a>
-                <a href="https://www.linkedin.com/in/farhan-shahriar-031122283/" target="_blank" rel="noreferrer">
+                <a href="https://www.linkedin.com/in/farhan-supto/" target="_blank" rel="noreferrer">
                   <FaLinkedin />
                 </a>
                 <a href="https://www.instagram.com/farhan_supto21/" target="_blank" rel="noreferrer">
