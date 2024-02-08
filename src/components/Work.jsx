@@ -151,14 +151,14 @@ const Work = () => {
                   <img
                     className="scale-125 group-hover:scale-150 transition-all duration-500"
                     src={trello} alt="" />
-
+{/* hh */}
                   <div className='absolute -bottom-2 left-1 lg:-bottom-full lg:left-4 lg:group-hover:bottom-4 lg:transition-all lg:duration-500 z-40'>
                     {/* pretitle */}
                     <div className="text-gradient md:text-xl text-sm">
                       Yola
                     </div>
                     <div className="md:text-xl text-sm">
-                      People can buy  Yoga courses course.
+                      People can buy  Yoga Courses course.
                     </div>
                     <div className="md:text-xl text-sm text-cyan-500">
                       Technology
