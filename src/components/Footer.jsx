@@ -13,7 +13,7 @@ function Footer() {
         <Container fluid className="footer">
             <Row>
                 <Col md="4" className="footer-copywright">
-                    <h3>Designed and Developed by Sarvagya Saxena</h3>
+                    <h3>Designed and Developed by Farhan SupTo</h3>
                     <span><h3>Copyright © {year}</h3></span>
                 </Col>
 
@@ -21,7 +21,7 @@ function Footer() {
                     <ul className="footer-icons space-x-8">
                         <li className="social-icons">
                             <a
-                                href="https://github.com/serverf21"
+                                href="https://github.com/Farhan-SupTo"
                                 style={{ color: "white" }}
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -32,7 +32,7 @@ function Footer() {
 
                         <li className="social-icons">
                             <a
-                                href="https://www.linkedin.com/in/sarvagya-saxena-a8740195/"
+                                href="https://www.linkedin.com/in/farhan-shahriar-031122283/"
                                 style={{ color: "white" }}
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -42,7 +42,7 @@ function Footer() {
                         </li>
                         <li className="social-icons">
                             <a
-                                href="https://www.instagram.com/server_saxena/"
+                                href="https://www.instagram.com/farhan_supto21/"
                                 style={{ color: "white" }}
                                 target="_blank"
                                 rel="noopener noreferrer"

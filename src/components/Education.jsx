@@ -8,7 +8,7 @@ import { fadeIn } from '../variants';
 const Education = () => {
 
     return (
-        <section className="section" id="education">
+        <section className="section " id="education">
             <div className="container mx-auto">
                 <div className='gap-x-40 gap-y-10 mb-6 lg:mb-20 lg:p-5'>
                     <div className='flex flex-col lg:flex-row justify-center items-center'>

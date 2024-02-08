@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 // components
-import Banner from './components/Banner';
+import Banner from './components/Banner/Banner';
 import Header from './components/Header';
 import Nav from './components/Nav';
 import About from './components/About';
@@ -8,7 +8,6 @@ import Services from './components/Services';
 import Work from './components/Work';
 import Contact from './components/Contact';
 import Skills from './components/Skills'
-import Education from './components/Education';
 import BackToHome from './components/BackToHome';
 import Footer from './components/Footer';
 import Github from './components/Github';
@@ -17,6 +16,7 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
+import Education from './components/Education';
 
 const override = {
   display: "block",

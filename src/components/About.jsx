@@ -21,7 +21,7 @@ const About = () => {
   });
   // mix-blend-exclusion
   return (
-    <section className='section sm:bottom-2 bg-cyan-950' id="about" ref={ref}>
+    <section className='section sm:bottom-2 ' id="about" ref={ref}>
       <div className="container md:mx-auto md:flex md:justify-center">
 
         <div className='flex flex-col items-center align-middle justify-center lg:flex-row
@@ -42,19 +42,20 @@ const About = () => {
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
             className="flex-1 xl:leading-9">
-            <h2 className='h2 text-accent text-5xl lg:text-[5vh] font-tertiary'>Meet the Developer</h2>
-            <h4 className='h4 mb-4 lg:text-[2.5vh]'>I'm a software developer with almost 3 years of experience.</h4>
+            <h2 className='h2 text-accent text-5xl lg:text-[5vh] font-tertiary'>About me</h2>
+            <h4 className='h4 mb-4 lg:text-[2.5vh]'>A Junior Full Stack Developer</h4>
 
             <p className='text-base font-extralight xl:text-[2vh] xl:leading-9 xl:w-[700px]'>
 
-              My passion lies in crafting innovative solutions using MERN Stack, exploring the intricacies of &nbsp;
-              <span className='text-yellow-400'>Blockchain (Smart Contracts and Hyperledgers)</span>, venturing into
-              <span className='text-yellow-400'> cross-platform development</span>, and delving into the realms of AI-models, whether it's
-              <span className='text-yellow-400 '> designing neural networks </span>
-              or seamlessly integrating cutting-edge transformers like
-              <span className='text-yellow-400'> openai, Falcon, and Langchain.</span>
+            As a web developer, my motive is to build effective, visually stunning, and intuitive web applications that enhance user experience and drive business success.I am a skilled web developer with experience in &nbsp;
+              <span className='text-yellow-400'>HTML, CSS, JavaScript, ES6, and MongoDB</span>.
+              Also my soft skills are 
+              <span className='text-yellow-400'> communication, Problem-Solving,Critical Thinking, Teamwork, and Leadership.</span>, I have knowledge of popular frameworks such as 
 
-              <span className='sm:hidden md:visible'> Currently, I'm building developing projects in Next.js, open-source AI-automation, React.js, and Node.js. Let's collaborate and create something amazing together!</span>
+              <span className='text-yellow-400 '> React </span>
+              and experience with
+
+              <span className='text-yellow-400'> REST APIs, expressJS, and Firebase frameworks.</span>
 
             </p>
             <br />
@@ -65,7 +66,7 @@ const About = () => {
 
               <div>
                 <div className="md:text-[30px] font-semibold text-gradient mb-2">
-                  {inView ? <CountUp start={0} end={33} duration={3} /> : 33}
+                  {inView ? <CountUp start={0} end={6} duration={1} /> : 0}
                   +
                 </div>
                 <div className="font-primary text-xs tracking-[2px] text-gray-500">
@@ -105,11 +106,11 @@ const About = () => {
                   Say "Hi"! &nbsp; <span className='text-2xl'>🙋🏽‍♂️</span>
                 </button>
               </Link>
-              <a href="https://drive.google.com/file/d/1izGevUmhfBDRbWRQ6Pd07kV2Q08E7m1g/view?usp=sharing" target="_blank" rel="noreferrer">
+              <a href="https://drive.google.com/file/d/1U4Qa8JJsSq1I1ui7fXwi283ORShpAb7s/view?usp=sharing" target="_blank" rel="noreferrer">
                 <button className='btn btn-lg
-                hover:text-blue-950 hover:shadow-[inset_13rem_0_0_0] hover:shadow-[#A0C1D1] duration-[400ms,700ms]
+                hover:text-blue-950 tracking-wider hover:shadow-[inset_13rem_0_0_0] hover:shadow-[#A0C1D1] duration-[400ms,700ms]
                 transition-[color,box-shadow] border-b-4 border-l-2 shadow-lg border-blue-700'>
-                  Resume
+                  Curriculum Vitae
                 </button>
               </a>
 

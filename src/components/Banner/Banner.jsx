@@ -1,17 +1,18 @@
 import React from 'react';
+import './styles.css'
 //images
-import MyImage from '../assets/cover.png';
+import MyImage from '../../assets/MyImage.jpg';
 //icons
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
-import { SiLeetcode, SiHackerrank, SiCodingninjas } from 'react-icons/si';
+import {  SiInstagram, SiFacebook } from 'react-icons/si';
 //type animation
 import { TypeAnimation } from 'react-type-animation';
 //motion
 import { motion } from 'framer-motion';
-import { fadeIn } from '../variants';
+import { fadeIn } from '../../variants';
 import { Link } from 'react-scroll';
 import { HiArrowNarrowRight } from 'react-icons/hi';
-import Image from 'react-bootstrap/Image';
+
 
 const Banner = () => {
 
@@ -29,8 +30,12 @@ const Banner = () => {
               initial="hidden" whileInView={'show'}
 
               className="hidden md:flex flex-1 max-w-[40vw]
-          md:mx-auto justify-center mix-blend-lighten brightness-150 md:ml-[10vw] lg:ml-[15vw] xl:ml-[3vw]">
-              <Image src={MyImage} alt='' className='max-w-[40vw]' fluid />
+          md:mx-auto justify-center  md:ml-[10vw] lg:ml-[15vw] xl:ml-[3vw]">
+              <div className='box'>
+              <div className='content'>
+                 <img src={MyImage} alt="" />
+              </div>
+              </div>
             </motion.div>
           </div>
 
@@ -53,7 +58,7 @@ const Banner = () => {
               initial="hidden" whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }}
               className="text-[6vh] leading-[0.8] lg:text-[6vh] font-semibold pb-2">
-              <span className='text-cyan-700'>I'M</span>  SARVAGYA <span>SAXENA</span>
+              <span className='text-cyan-700'>I'M</span>  FARHAN <span>SUPTO</span>
             </motion.h1>
             <motion.div variants={fadeIn('up', 0.3)}
               initial="hidden" whileInView={'show'}
@@ -62,15 +67,13 @@ const Banner = () => {
               flex flex-row lg:justify-start justify-center py-6 xl:space-y-11">
 
               <TypeAnimation sequence={[
-                'Full-Stack Engineer',
+                'Full-Stack Developer',
                 2000,
                 'MERN and Next.js Developer',
                 2000,
-                'Blockchain Developer',
+                'Programmer',
                 2000,
-                'AI/ML Engineer',
-                2000,
-                'React-Native Developer',
+                'Problem solver',
                 2000,
 
               ]}
@@ -95,7 +98,7 @@ const Banner = () => {
                   </button>
                 </Link>
               </div>
-              <a href="https://drive.google.com/file/d/1YfMUvZTTB4NXQJtojXUbBsO8s0vuhLUj/view?usp=sharing"
+              <a href="https://drive.google.com/file/d/1U4Qa8JJsSq1I1ui7fXwi283ORShpAb7s/view?usp=sharing"
                 target="_blank" rel="noreferrer">
                 <div
                   className="px-4 py-3 border-b-4 border-cyan-200 text-cyan-200 hover:text-white hover:bg-cyan-700
@@ -111,20 +114,17 @@ const Banner = () => {
               <a href="/" className="text-gradient btn-link">FIND ME ON</a>
               {/* {Socials} */}
               <div className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0">
-                <a href="https://github.com/serverf21" target="_blank" rel="noreferrer">
+                <a href="https://github.com/Farhan-SupTo" target="_blank" rel="noreferrer">
                   <FaGithub />
                 </a>
-                <a href="https://www.linkedin.com/in/sarvagya-saxena-a8740195/" target="_blank" rel="noreferrer">
+                <a href="https://www.linkedin.com/in/farhan-shahriar-031122283/" target="_blank" rel="noreferrer">
                   <FaLinkedin />
                 </a>
-                <a href="https://leetcode.com/user0367PG/" target="_blank" rel="noreferrer">
-                  <SiLeetcode />
+                <a href="https://www.instagram.com/farhan_supto21/" target="_blank" rel="noreferrer">
+                  <SiInstagram />
                 </a>
-                <a href="https://www.hackerrank.com/saxena_sarvagya1" target="_blank" rel="noreferrer">
-                  <SiHackerrank />
-                </a>
-                <a href="https://www.codingninjas.com/studio/profile/b61adbc3-1a17-4936-9b8b-0f1c07b9282b" target="_blank" rel="noreferrer">
-                  <SiCodingninjas />
+                <a href="https://www.facebook.com/farhanshahriar.supto" target="_blank" rel="noreferrer">
+                  <SiFacebook />
                 </a>
               </div>
             </div>

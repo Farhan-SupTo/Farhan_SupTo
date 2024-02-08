@@ -114,7 +114,7 @@ const Contact = () => {
           <div className='text-pink-300 font-primary font-semibold text-lg'>
             <h1>Or</h1>
           </div>
-          Email me: sarvagyasaxena.2102@gmail.com
+          <h2 className='tracking-wider'>Email me: farhansupto2k17@gmail.com</h2>
         </div>
       </div>
     </section>

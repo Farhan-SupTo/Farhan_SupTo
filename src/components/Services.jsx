@@ -9,25 +9,25 @@ import { Image } from 'react-bootstrap';
 
 //services data
 const services = [{
-  name: 'ClerkJS - React Auth made easy',
-  description: 'Imagine building your React, Next.js, or React Native app, and authentication is a breeze – thanks to ClerkJS. It is like a coding buddy that does all the authentication hassle for you.',
-  link: 'https://sarvagya-next-sanity-blog.vercel.app/posts/clerkjs-react-auth-made-easy'
+  name: 'Difference Between .js and .mjs Files in JavaScript',
+  description: 'JavaScript is a versatile programming language used for both client-side and server-side development. However, you might have come across files with different extensions, such as .js and .mjs, and wondered about their distinctions. In this blog post, we will know the difference between these two file types and explore how they impact our JavaScript projects.',
+  link: 'https://dev.to/nipu/js-cjs-and-mjs-defference-5f21#:~:text=js%20extension%20using%20the%20CommonJS,standardized%20way%20to%20define%20modules.'
 },
 {
-  name: 'Threads vs Twitter: Let us talk design!',
-  description: 'Imagine peeking under the hood of tech giants! Delve into the architecture showdown between the intricate microservices of Twitter and  multimedia-driven design of Threads.',
-  link: 'https://sarvagya-next-sanity-blog.vercel.app/posts/threads-vs-twitter'
+  name: 'Useful commands for Git and GitHub',
+  description: 'Git tracks your local changes, local versions. But when it comes to working as a team on different computers, you need to share your code/code-versions with your team members to work together on a centralized codebase. Here comes GitHub; it takes your local files on the cloud. You work on your local machine, track versions, then upload them on GitHub; your team members do the same. Thus a project code got centralized.',
+  link: 'https://www.syncfusion.com/blogs/post/top-git-commands-for-developers.aspx'
 },
 {
-  name: 'Unveiling Technological Shifts',
-  description: "From Apple's tire industry dominance to revolutionary organ-healing coatings, explore captivating analytical insights as I decode complex discoveries into captivating stories.",
-  link: 'https://sarvagya-next-sanity-blog.vercel.app/posts/unveiling-technological-transformations'
+  name: 'Automatic JWT Token setup in Postman',
+  description: "While working with APIs, we test them in an API Client, and the most popular client is Postman. If the API has an authentication system, we log in through an endpoint and collect a JWT (JSON web token). Then we can access protected routes by setting the token into the header. We can automate this manual process by using Postman's environment variables. Before that, let's take an idea about Postman's environment variables.",
+  link: 'https://medium.com/@sahilseth/automatic-auth-jwt-token-generation-in-postman-7861b25a5c85'
 }
 ];
 
 const Services = () => {
   return (
-    <section className='section min-h-[90vh]' id="services">
+    <section className='section min-h-[90vh] pb-10' id="services">
       <div className="container mx-auto align-middle">
         <div className='flex flex-col lg:flex-row'>
           {/* {text & images} */}
@@ -44,7 +44,7 @@ const Services = () => {
               <button className='btn btn-sm
               hover:text-blue-950 hover:shadow-[inset_13rem_0_0_0] hover:shadow-[#A0C1D1] duration-[400ms,700ms]
               transition-[color,box-shadow] border-b-4 border-l-2 shadow-lg border-blue-700'>
-                See My Blog
+                Blogs
               </button>
             </a>
             <Image src={myImg} alt="name" className='max-w-[25vw]' color='white' />
