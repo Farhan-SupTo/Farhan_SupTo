@@ -63,7 +63,7 @@ const App = () => {
               <Skills />
               <Work />
               <Services />
-              <Education />
+              
               <Contact />
               <Footer />
 
