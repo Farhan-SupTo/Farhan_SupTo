@@ -110,7 +110,7 @@ const Contact = () => {
           </motion.form>
 
         </div>
-        <div className='mb-[25vh]'>
+        <div className='mb-[25vh] lg:-my-20'>
           <div className='text-pink-300 font-primary font-semibold text-lg'>
             <h1>Or</h1>
           </div>
